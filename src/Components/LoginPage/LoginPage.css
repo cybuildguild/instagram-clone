@@ -14,3 +14,12 @@
     margin-top: 25px;
     text-align: center;
 }
+
+.loginpage__text {
+    width: 258px;
+    height: 36px;
+}
+
+.login__button {
+    width: 270px;
+}
