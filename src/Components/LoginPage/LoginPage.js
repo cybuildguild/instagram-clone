@@ -22,8 +22,8 @@ class LoginPage extends Component {
                                 <img src={inst_image} width="450" />
                             </div>
                         </div>
-                        <div>
-                            <img src={insta_logo} />
+                        <div className="loginpage__rightcomponent">
+                            <img className="loginpage__logo" src={insta_logo} />
                         </div>
                     </Grid>
                     <Grid item xs={3}>
