@@ -11,5 +11,6 @@
     height: 380px;
     width: 350px;
     border: 1px solid #dbdbdb;
-    margin: 25px;
+    margin-top: 25px;
+    text-align: center;
 }
