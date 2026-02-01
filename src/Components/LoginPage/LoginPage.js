@@ -1,3 +1,4 @@
+import { Grid } from "@mui/material";
 import React, { Component } from "react";
 
 class LoginPage extends Component {
@@ -7,7 +8,19 @@ class LoginPage extends Component {
     }
     render() {
         return(
-            <div> Hello World</div>
+            <div>
+                <Grid container>
+                    <Grid item xs={3}>
+                        Hello
+                    </Grid>
+                    <Grid item xs={6}>
+                        From
+                    </Grid>
+                    <Grid item xs={3}>
+                        CyBuildGuild
+                    </Grid>
+                </Grid>
+            </div>
         )
     }
 }
