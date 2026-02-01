@@ -15,9 +15,15 @@
     text-align: center;
 }
 
+.loginPage__signin {
+    margin-top: 25px;
+}
+
 .loginpage__text {
     width: 258px;
     height: 36px;
+    margin: 5px;
+    border: 1px solid #DBDBDB;
 }
 
 .login__button {
