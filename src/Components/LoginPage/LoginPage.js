@@ -23,6 +23,13 @@ class LoginPage extends Component {
                         <div className="loginpage__rightcomponent">
                             <img className="loginpage__logo" src={insta_logo} />
                         </div>
+                        <div>
+                            <div className="loginPage__signin">
+                                <input className="loginpage__text" type="text"/>
+                                <input className="loginpage__text" type="password"/>
+                                <button className="login__button">Sign In</button>
+                            </div>
+                        </div>
                     </Grid>
                     <Grid item xs={3}></Grid>
                 </Grid>
