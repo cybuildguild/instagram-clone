@@ -1,0 +1,7 @@
+.loginpage__main{
+    display: flex;
+}
+
+.loginpage__logo{
+    width: 175px;
+}
