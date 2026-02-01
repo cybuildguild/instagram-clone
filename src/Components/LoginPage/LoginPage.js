@@ -13,9 +13,7 @@ class LoginPage extends Component {
         return(
             <div>
                 <Grid container>
-                    <Grid item xs={3}>
-                        Hello
-                    </Grid>
+                    <Grid item xs={3}></Grid>
                     <Grid item xs={6}>
                         <div className="loginpage__main">
                             <div>
@@ -26,9 +24,7 @@ class LoginPage extends Component {
                             <img className="loginpage__logo" src={insta_logo} />
                         </div>
                     </Grid>
-                    <Grid item xs={3}>
-                        CyBuildGuild
-                    </Grid>
+                    <Grid item xs={3}></Grid>
                 </Grid>
             </div>
         )
