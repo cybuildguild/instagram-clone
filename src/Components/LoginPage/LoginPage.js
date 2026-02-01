@@ -22,8 +22,6 @@ class LoginPage extends Component {
                         </div>
                         <div className="loginpage__rightcomponent">
                             <img className="loginpage__logo" src={insta_logo} />
-                        </div>
-                        <div>
                             <div className="loginPage__signin">
                                 <input className="loginpage__text" type="text"/>
                                 <input className="loginpage__text" type="password"/>
