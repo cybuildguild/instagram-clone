@@ -1,7 +1,7 @@
 import { Grid } from "@mui/material";
 import React, { Component } from "react";
 import inst_image from '../../images/9264675fb26.svg';
-import inst_logo from '../../images/instalogo.png';
+import insta_logo from '../../images/logoinsta.png';
 
 class LoginPage extends Component {
     constructor(props) {
@@ -22,7 +22,7 @@ class LoginPage extends Component {
                             </div>
                         </div>
                         <div>
-                            <img src={inst_logo} width="450" />
+                            <img src={insta_logo} width="450" />
                         </div>
                     </Grid>
                     <Grid item xs={3}>
