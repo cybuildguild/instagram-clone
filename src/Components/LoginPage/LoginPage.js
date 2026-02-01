@@ -1,4 +1,5 @@
 import { Grid } from "@mui/material";
+import '.LoginPage.css';
 import React, { Component } from "react";
 import inst_image from '../../images/9264675fb26.svg';
 import insta_logo from '../../images/logoinsta.png';
