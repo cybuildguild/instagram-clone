@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import './HomePage.css';
+import MainContent from "../MainContent/MainContent";
 
 class Home extends Component {
     constructor(props) {
@@ -10,6 +11,7 @@ class Home extends Component {
         return (
             <div>
                 <NavBar/>
+                <MainContent/>
             </div>
             
         );
