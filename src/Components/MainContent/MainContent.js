@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import './MainContent.css';
 import Grid from "@mui/material/Grid";
+import StatusBar from '../StatusBar/StatusBar.css';
+import Mainpage from '../MainPage/MainPage.css';
 
 class MainContent extends Component {
     constructor(props) {
@@ -12,9 +14,10 @@ class MainContent extends Component {
             <div>
                 <Grid container>
                     <Grid item={2}></Grid>
-                    <Grid item={6}>
+                    <Grid item={6} className="maincontent__container">
                         <div>
-                            
+                            <StatusBar/>
+                            <Mainpage/>
                         </div>
                     </Grid>
 
