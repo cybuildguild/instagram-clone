@@ -4,7 +4,8 @@ import React, { Component } from "react";
 import inst_image from '../../images/9264675fb26.svg';
 import insta_logo from '../../images/logoinsta.png';
 import fb from '../../images/fb.png';
-
+import appstore from '../../images/app.png';
+import playstore from '../../images/play.png';
 
 class LoginPage extends Component {
     constructor(props) {
@@ -49,6 +50,10 @@ class LoginPage extends Component {
                             <div className="loginPage__signup">
                                 Get the app.
                             </div>
+                        </div>
+                        <div>
+                            <img src={appstore}/>
+                            <img src={playstore}/>
                         </div>
                     </Grid>
                     <Grid item xs={3}></Grid>
