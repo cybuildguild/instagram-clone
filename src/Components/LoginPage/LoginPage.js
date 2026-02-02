@@ -52,8 +52,8 @@ class LoginPage extends Component {
                             </div>
                         </div>
                         <div>
-                            <img src={appstore}/>
-                            <img src={playstore}/>
+                            <img src={appstore} width="136px"/>
+                            <img src={playstore} width="136px"/>
                         </div>
                     </Grid>
                     <Grid item xs={3}></Grid>
