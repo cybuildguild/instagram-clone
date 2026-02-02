@@ -47,13 +47,16 @@ class LoginPage extends Component {
                             <div className="loginpage__signin">
                                 Don't have an account? Sign up
                             </div>
-                            <div className="loginPage__signup">
-                                Get the app.
+                            <div className="loginPage__downloadSection">
+                                <div>
+                                    Get the app.
+                                </div>
                             </div>
-                        </div>
-                        <div>
-                            <img src={appstore} width="136px"/>
-                            <img src={playstore} width="136px"/>
+                        
+                            <div className="loginPage__options">
+                                <img className="loginPage__dwimg" src={appstore} width="136px"/>
+                                <img className="loginPage__dwimg" src={playstore} width="136px"/>
+                            </div>
                         </div>
                     </Grid>
                     <Grid item xs={3}></Grid>
