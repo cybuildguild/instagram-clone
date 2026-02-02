@@ -46,8 +46,8 @@ class LoginPage extends Component {
                             <div className="loginpage__signin">
                                 Don't have an account? Sign up
                             </div>
-                            <div className="loginPage__singup">
-                                Have an account? Sign in
+                            <div className="loginPage__signup">
+                                Get the app.
                             </div>
                         </div>
                     </Grid>
