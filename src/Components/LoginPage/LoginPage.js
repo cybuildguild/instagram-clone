@@ -41,6 +41,15 @@ class LoginPage extends Component {
                             <div className="login_forgt">Forgot Password?</div>
                         </div>
                         </div>
+                        
+                        <div className="loginpage__signupoption">
+                            <div className="loginpage__signin">
+                                Don't have an account? Sign up
+                            </div>
+                            <div className="loginPage__singup">
+                                Have an account? Sign in
+                            </div>
+                        </div>
                     </Grid>
                     <Grid item xs={3}></Grid>
                 </Grid>
