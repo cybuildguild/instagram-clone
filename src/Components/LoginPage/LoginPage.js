@@ -3,6 +3,8 @@ import '.LoginPage.css';
 import React, { Component } from "react";
 import inst_image from '../../images/9264675fb26.svg';
 import insta_logo from '../../images/logoinsta.png';
+import fb from '../../images/fb.png';
+
 
 class LoginPage extends Component {
     constructor(props) {
@@ -34,6 +36,9 @@ class LoginPage extends Component {
                                 <div className="login__or">OR</div>
                                 <div className="login__dividor"></div>
                             </div>
+                            <div className="login__fb">
+                                <img src={fb}/>Log in with Facebook</div>
+                            <div className="login_forgt">Forgot Password?</div>
                         </div>
                         </div>
                     </Grid>
