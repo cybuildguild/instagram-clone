@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import './MainContent.css';
 
-class Home extends Component {
+class MainContent extends Component {
     constructor(props) {
         super(props);
         this.state =  { }
