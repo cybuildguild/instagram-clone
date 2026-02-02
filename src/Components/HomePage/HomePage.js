@@ -8,7 +8,10 @@ class Home extends Component {
     }
     render() {
         return (
-            <div>Hello from CyBuildGuild</div>
+            <div>
+                <NavBar/>
+            </div>
+            
         );
     }
 }
