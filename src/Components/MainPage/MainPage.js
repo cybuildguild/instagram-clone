@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import './MainPage.css';
+import './Post.css';
 
 class MainPage extends Component {
     constructor(props) {
