@@ -20,13 +20,15 @@ class LoginPage extends Component {
                                 <img src={inst_image} width="450" />
                             </div>
                         </div>
+                        <div>
                         <div className="loginpage__rightcomponent">
                             <img className="loginpage__logo" src={insta_logo} />
                             <div className="loginPage__signin">
-                                <input className="loginpage__text" type="text"/>
-                                <input className="loginpage__text" type="password"/>
+                                <input className="loginpage__text" type="text" placeholder="Phone number, username or email"/>
+                                <input className="loginpage__text" type="password" placeholder="Password"/>
                                 <button className="login__button">Sign In</button>
                             </div>
+                        </div>
                         </div>
                     </Grid>
                     <Grid item xs={3}></Grid>
